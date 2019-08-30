@@ -3,7 +3,6 @@ package com.example.algamoney.api.event;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.context.ApplicationEvent;
-import org.springframework.web.client.HttpServerErrorException;
 
 public class RecursoCriadoEvent extends ApplicationEvent {
 
@@ -25,7 +24,5 @@ public class RecursoCriadoEvent extends ApplicationEvent {
 	public Long getCodigo() {
 		return codigo;
 	}
-	
-	
 
 }

@@ -39,8 +39,6 @@ public class CategoriaResource {
 		// !categorias.isEmpty() ? ResponseEntity.ok(categorias) :
 		// ResponseEntity.noContent().build();
 	}
-	
-	//teste git
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
